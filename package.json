@@ -1,6 +1,6 @@
 {
   "name": "@vwjs/icons",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "react icon libray",
   "main": "./dist/cjs/index.js",
   "files": [
