@@ -79,6 +79,11 @@
   dependencies:
     tslib "^2.4.0"
 
+"@vwjs/icons@^1.0.3":
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/@vwjs/icons/-/icons-1.0.3.tgz#80577650091b0e3940de22a5b39948d8028a2bac"
+  integrity sha512-uOUSdnp31su/7Mks6/kOQhP7/GNc+/Qzp9fj8PqAebVoh/ZJkuAHomywe7hKqEwyL2Uh9LeePxf/kxH6bpRsDA==
+
 caniuse-lite@^1.0.30001406:
   version "1.0.30001436"
   resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001436.tgz#22d7cbdbbbb60cdc4ca1030ccd6dea9f5de4848b"
