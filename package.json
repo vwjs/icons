@@ -1,6 +1,6 @@
 {
   "name": "@vwjs/icons",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "description": "react icon libray",
   "main": "./dist/cjs/index.js",
   "files": [
@@ -12,12 +12,12 @@
   "types": "./dist/esm/index.d.ts",
   "scripts": {
     "test": "jest --config jestconfig.json",
-    "build": "yarn build:esm && yarn build:cjs",
-    "build:esm": "tsc",
-    "build:cjs": "tsc --module commonjs --outDir dist/cjs",
     "lint": "eslint \"{**/*,*}.{js,ts,jsx,tsx}\"",
     "prettier": "prettier --write \"{src,tests,example/src}/**/*.{js,ts,jsx,tsx}\"",
     "prepare": "npm run build",
+    "build": "yarn build:esm && yarn build:cjs",
+    "build:esm": "tsc",
+    "build:cjs": "tsc --module commonjs --outDir dist/cjs",
     "prepublishOnly": "npm test && npm run prettier && npm run lint"
   },
   "keywords": [
@@ -46,6 +46,7 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "ts-jest": "^29.0.3",
+    "tslib": "^2.4.1",
     "typescript": "^4.9.3"
   },
   "peerDependencies": {
