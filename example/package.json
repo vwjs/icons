@@ -1,23 +1,16 @@
 {
-  "name": "e",
+  "name": "n",
+  "version": "0.1.0",
   "private": true,
-  "version": "0.0.0",
-  "type": "module",
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
   },
   "dependencies": {
-    "@vwjs/icons": "^1.0.3",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "update": "^0.7.4"
-  },
-  "devDependencies": {
-    "@types/react": "^18.0.24",
-    "@types/react-dom": "^18.0.8",
-    "@vitejs/plugin-react": "^2.2.0",
-    "vite": "^3.2.3"
+    "next": "13.0.6",
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
   }
 }
