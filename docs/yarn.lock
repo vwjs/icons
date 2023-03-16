@@ -80,9 +80,9 @@
     tslib "^2.4.0"
 
 "@vwjs/icons@^1.0.3":
-  version "1.0.3"
-  resolved "https://registry.yarnpkg.com/@vwjs/icons/-/icons-1.0.3.tgz#80577650091b0e3940de22a5b39948d8028a2bac"
-  integrity sha512-uOUSdnp31su/7Mks6/kOQhP7/GNc+/Qzp9fj8PqAebVoh/ZJkuAHomywe7hKqEwyL2Uh9LeePxf/kxH6bpRsDA==
+  version "1.0.5"
+  resolved "https://registry.yarnpkg.com/@vwjs/icons/-/icons-1.0.5.tgz#e80391f4aceb80e2a1e14d0da36f050978201080"
+  integrity sha512-lAbRsVATrFjfAn11BPnr89/cu6Sa88i7mCFnZ+Buf3AMjK2//Wv3nWgZv+IIeZUgoeVa4iNPBh074A3oTR3pKQ==
 
 caniuse-lite@^1.0.30001406:
   version "1.0.30001436"
