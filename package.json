@@ -29,7 +29,7 @@
   "author": "kalana kithmina (kalanakt)",
   "license": "MIT",
   "devDependencies": {
-    "@testing-library/react": "^13.4.0",
+    "@testing-library/react": "^14.0.0",
     "@types/jest": "^29.2.4",
     "@types/react": "^18.0.26",
     "@typescript-eslint/eslint-plugin": "^5.45.1",
